@@ -2,6 +2,11 @@
 
 This is an application made in Node.js with the intention of starting projects based on models hosted in Git repositories.
 
+### Installation
+```
+npm install -g opl-cli
+```
+
 ### Usage
 
 * `opl new` Starts a new project based on pre-registered templates.
