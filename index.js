@@ -1,9 +1,8 @@
 #! /usr/bin/env node
 const program = require('commander');
 const figlet = require('figlet');
-const { captureTemplate } = require('./lib/actions');
+const { captureTemplate, showTemplates } = require('./lib/actions');
 const { logError } = require('./lib/log');
-const { showList } = require('./lib/storage');
 
 program
     .version('0.1.0')
@@ -25,17 +24,17 @@ program
     });
 
 program
-    .command('add-template <name> <url>')
+    .command('add <alias> <url>')
     .description('Add a new model template to list OPL.')
     .action(() => {
 
     });
 
 program
-    .command('list-template')
+    .command('list')
     .description('Show all templates added on OPL.')
     .action(() => {
-        showList();
+        showTemplates();
     });
 
 program.parse(process.argv);
