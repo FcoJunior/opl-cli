@@ -10,7 +10,7 @@ npm install -g opl-cli
 ### Usage
 
 * `opl new` Starts a new project based on pre-registered templates.
-* `opl new <project-name> <git-url> <branch>` Starts a new project based on templates hosted in git. The use of `<branch>` is optional.
+* `opl new <project-name> -u <git-url> -b <branch>` Starts a new project based on templates hosted in git. The use of `<branch>` is optional.
 
 The OPL has compatibility with 3 web services of git repositories, they are: [Bitbucket](https://bitbucket.org), [GitHub](https://github.com/) and [GitLab](https://gitlab.com/). It's restricted to open source projects.
 

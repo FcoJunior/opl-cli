@@ -9,12 +9,13 @@
   "author": "Fco Junior",
   "license": "MIT",
   "bin": {
-    "opl": "./bin/index.js"
+    "opl": "./index.js"
   },
   "dependencies": {
     "cli-spinners": "^1.1.0",
     "colors": "^1.1.2",
     "commander": "^2.12.2",
+    "diskdb": "^0.1.17",
     "download-git-repo": "^1.0.1",
     "figlet": "^1.2.0",
     "inquirer": "^4.0.1",
